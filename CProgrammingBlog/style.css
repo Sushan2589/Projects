@@ -43,6 +43,11 @@ body{
     
     
 }
+#intro{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 
 .headings{
     font-size: 24px;
@@ -133,4 +138,55 @@ footer p {
 .button:hover {
     background-color: #007bff;
     transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #intro{
+        font-size: 24px;
+        margin-left: 2.5rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .left {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.9);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        padding-top: 60px;
+    }
+
+    .left.active {
+        transform: translateX(0);
+    }
+
+    .menu-button {
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        z-index: 1000;
+        border-radius: 4px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .content-div {
+        width: 100%;
+        padding: 20px;
+    }
 }
