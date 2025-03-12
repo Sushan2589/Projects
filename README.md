@@ -11,6 +11,13 @@ This repository contains small-scale, simple projects that I use for learning an
 - Various programming languages and frameworks based on the project requirements.
 - Tools and libraries that aid in development and learning.
 
+## How to Preview Website
+- The project pages are deployed on GitHub Pages.
+- Visit: https://sushan2589.github.io/Projects/[name-of-project]
+- Example: https://sushan2589.github.io/Projects/C Programming Blog
+
+
+
 ## Contributions
 This repository is primarily for personal learning, but suggestions and discussions are always welcome!
 
